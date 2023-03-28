@@ -44,6 +44,8 @@ static let identifier = "ProductListTableViewCell"
     private lazy var productPrice : UILabel = {
         let price = UILabel()
         price.translatesAutoresizingMaskIntoConstraints = false
+        price.font = .systemFont(ofSize: 14, weight: .light)
+        price.textColor = .red
         return price
         
     }()
