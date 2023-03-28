@@ -16,6 +16,7 @@
 		36C00AB629D29A3A003B79FF /* customizeTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C00AB529D29A3A003B79FF /* customizeTabBarTests.swift */; };
 		36C00AC029D29A3A003B79FF /* customizeTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C00ABF29D29A3A003B79FF /* customizeTabBarUITests.swift */; };
 		36C00AC229D29A3A003B79FF /* customizeTabBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C00AC129D29A3A003B79FF /* customizeTabBarUITestsLaunchTests.swift */; };
+		36C00AD029D2AC61003B79FF /* ProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C00ACF29D2AC61003B79FF /* ProductListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		36C00ABB29D29A3A003B79FF /* customizeTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customizeTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C00ABF29D29A3A003B79FF /* customizeTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customizeTabBarUITests.swift; sourceTree = "<group>"; };
 		36C00AC129D29A3A003B79FF /* customizeTabBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customizeTabBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		36C00ACF29D2AC61003B79FF /* ProductListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		36C00A9D29D29A36003B79FF /* customizeTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				36C00ACE29D2AC33003B79FF /* PRODUCT_LIST_TABLE_CELL */,
 				36C00A9E29D29A36003B79FF /* AppDelegate.swift */,
 				36C00AA029D29A36003B79FF /* SceneDelegate.swift */,
 				36C00AA229D29A36003B79FF /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				36C00AC129D29A3A003B79FF /* customizeTabBarUITestsLaunchTests.swift */,
 			);
 			path = customizeTabBarUITests;
+			sourceTree = "<group>";
+		};
+		36C00ACE29D2AC33003B79FF /* PRODUCT_LIST_TABLE_CELL */ = {
+			isa = PBXGroup;
+			children = (
+				36C00ACF29D2AC61003B79FF /* ProductListTableViewCell.swift */,
+			);
+			path = PRODUCT_LIST_TABLE_CELL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36C00AA329D29A36003B79FF /* ViewController.swift in Sources */,
+				36C00AD029D2AC61003B79FF /* ProductListTableViewCell.swift in Sources */,
 				36C00A9F29D29A36003B79FF /* AppDelegate.swift in Sources */,
 				36C00AA129D29A36003B79FF /* SceneDelegate.swift in Sources */,
 			);
